@@ -1,0 +1,42 @@
+.card__table {
+  box-shadow: $depth1;
+  border-radius: 2px !important;
+  .card-body {
+    padding: 10px;
+  }
+  .table {
+    border: 0;
+    th, td {
+      padding: 10px !important;
+    }
+    th {
+      border: 0 !important;
+    }
+    td {
+      border-top: 1px solid #eeeff0;
+    }
+  }
+}
+
+// .modal {
+//   .table {
+//     td {
+//       border: 0;
+//     }
+//   }
+// }
+
+.info-table {
+  .info-table-header {
+    vertical-align: top;
+    text-align: left;
+    padding-right: 6px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    &::after {
+      content: ':';
+      padding-left: 6px;
+    }
+  }
+}

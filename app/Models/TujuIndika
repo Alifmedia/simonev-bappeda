@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class TujuIndika extends Model
+{
+  protected $table    = 'tuju_indika';
+  //protected $guarded  = ['id'];
+
+
+
+ public function renstra()
+  {
+    return $this->belongsTo('App\Models\Renstra');
+  }
+
+
+
+
+
+public function tuju_target()
+  {
+    return $this->hasMany('App\Models\TujuTarget');
+  }    
+
+  
+ 
+
+ 
+}

@@ -1,0 +1,27 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+// Variables
+@import 'variables';
+
+@import '~owl.carousel/dist/assets/owl.carousel.min';
+@import '~owl.carousel/dist/assets/owl.theme.default.min';
+@import '~simplemde/dist/simplemde.min';
+
+@import '~quill/dist/quill.snow.css';
+@import '~quill/dist/quill.bubble.css';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~flatpickr/dist/flatpickr.min';
+
+
+//import
+@import 'main';
+@import 'navbar';
+@import 'input';
+@import 'table';
+@import 'auth';

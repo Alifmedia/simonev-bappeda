@@ -1,0 +1,59 @@
+.login-card {
+  position: absolute;
+  right: 0;
+  top: 0;
+  // width: 500px;
+  height: 100%;
+  z-index: 10;
+  .card {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 0;
+    box-shadow: $depth2;
+    flex-direction: row;
+    align-items: center;
+    .card-body {
+        padding: 65px;
+    }
+  }
+}
+
+
+.carousel-fade {
+    .carousel-inner {
+        .carousel-item {
+            transition-property: opacity;
+            img {
+              height: 100%;
+            }
+        }
+
+        .carousel-item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+}
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .carousel-item {
+    height: 100%;
+}
